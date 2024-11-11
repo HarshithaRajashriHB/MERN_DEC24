@@ -1,0 +1,14 @@
+.container{
+ margin: 50px;
+}
+.btn{
+    width: 60px;
+    height: 100%;
+}
+.box{
+    width: 250px;
+    height: 100%;
+}
+.row{
+    margin: 10px;
+}
