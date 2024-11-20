@@ -1,6 +1,6 @@
 const { timeStamp } = require('console');
 const mongoose= require('mongoose');
-const mongo_url="mongodb+srv://harshitharajashri:mongodbroot123@cluster0.te2ga.mongodb.net/"
+const mongo_url="mongodb+srv://harshitharajashri:password@cluster0.te2ga.mongodb.net/"
 const connectToMongo=async()=>{
     mongoose.Promise=global.Promise;
     try{
