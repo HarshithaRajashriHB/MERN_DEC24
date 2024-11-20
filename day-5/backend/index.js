@@ -8,7 +8,7 @@ const port=5000;
 const restoModel = require('./model/resto');
 app.use(express.json());
 app.use(cors());
-mongoose.connect("mongodb+srv://harshitharajashri:food123@food-day3.louv3.mongodb.net/");
+mongoose.connect("mongodb+srv://harshitharajashri:password@food-day3.louv3.mongodb.net/");
 
 app.post('/insert',async(req,res)=>{
     const restoName=req.body.restoName;
